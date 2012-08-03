@@ -57,13 +57,53 @@
           <div id="slide1">
             <div class="slideCaption">
               <h1>"HEADER TEXT HERE"</h1>
-              <div>Header Text HereHeader Text HereHeader Text HereHeader Text HereHeader Text HereHeader Text Here</div>
+              <div>Consider that the whale has nothing that can properly be called a neck; on the contrary, where his head and body seem to join, there, in that very place, is the thickest part of him</div>
+              <p><input class="linkBtn" type="button" value="More Info >" /></p>
             </div>
           </div>
           <div>Slide two content</div>
           <div>Slide three content</div>
           <div>And so on...</div>
         </div>
+      </div>
+      <div id="body">
+        <div id="bodyWrapper">
+          <h1>Welcome!</h1>
+          <p>
+            Established in 1996 Scuffs and Scratches provide a one stop solution for vehicle repair. Covering the whole of Kent, south London and Sussex, six and a half days a week, either at home or at your work place.
+            We combine traditional body shop techniques with the latest smart repair innovations. This allows us to repair rather than replace a many range of parts, thus passing on the savings to you.
+            We offer a wide range of services tailored for every vehicles individual needs including; alloy wheel refurbishment, body and bumper repairs, dent removal, interior repairs, scratches and glass repairs.
+            For a honest professional service please call us and we will happy to advise and give you an initial quotation. 
+          </p>
+          <div style="float: right">
+            <img src="img/quote_button.png">
+          </div>
+          <h1>Our Services</h1>
+
+          <table id="services">
+            <tr>
+              <td>
+                Paint Work
+              </td>
+              <td>
+                Wheel Repair
+              </td>
+              <td>
+                Scratch Removal
+              </td>
+              <td>
+                Dent Repair
+              </td>
+              <td>
+                Fleet Servicing
+              </td>
+              <td>
+                MOT and Servicing
+              </td>
+            </tr>
+          </table>
+        </div>
+
       </div>
     </div>
     <footer>

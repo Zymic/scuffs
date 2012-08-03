@@ -220,6 +220,7 @@ td { vertical-align: top; }
 
 body {
   background-color: black;
+  font-family: "Meta", sans-serif;
 }
 #wrapper {
   width: 1100px;
@@ -305,7 +306,7 @@ body {
   font-family: 'Meta', sans-serif;
   float: right;
   text-align: right;
-  width: 35%;
+  width: 33%;
 }
 .slideCaption h1 {
   padding: 0px;
@@ -319,6 +320,49 @@ body {
   background-repeat: no-repeat;
 }
 
+#body {
+  width: 100%;
+  background-color: #2c2c2e;
+  background: -webkit-linear-gradient(top, #2d2d2f, #090909);
+  margin-top: 20px;
+  color: white;
+  padding-bottom: 30px;
+}
+.linkBtn {
+  font-family: "Meta", sans-serif;
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+  background-color: #f3f3f3;
+  background: -webkit-linear-gradient(top, #f2f2f2, #d2d2d2);
+  border-radius: 3px;
+  color: #434343;
+  border: 1px solid #737373;
+}
+
+#body h1 {
+  font-weight: normal;
+  font-size: 24px;
+
+}
+#body p {
+  font-size: 13px;
+}
+#bodyWrapper {
+  width: 80%;
+  margin: auto;
+  padding-top: 10px;
+
+}
+#services tr td {
+  background-image: url('../img/bucket_icon.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  vertical-align: bottom;
+  height: 120px;
+  width: 110px;
+  text-align: center;
+  font-size: 13px;
+}
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
