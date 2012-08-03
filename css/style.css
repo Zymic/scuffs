@@ -310,15 +310,17 @@ body {
 }
 .slideCaption {
   margin-right: 30px;
-  margin-top: 20px;
   font-family: 'Meta', sans-serif;
   float: right;
   text-align: right;
   width: 33%;
 }
-.slideCaption h1 {
-  padding: 0px;
-  margin: 0px;
+.captionHeader {
+  margin:0px;
+  margin-right: 30px;
+  margin-top: 20px;
+  text-align: right;
+
 }
 
 #slide1 {

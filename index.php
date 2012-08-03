@@ -55,8 +55,8 @@
       <div id="slideshow">
         <div id="slider1">
           <div id="slide1">
+            <h1 class="captionHeader">"HEADER TEXT HERE"</h1>
             <div class="slideCaption">
-              <h1>"HEADER TEXT HERE"</h1>
               <div>Consider that the whale has nothing that can properly be called a neck; on the contrary, where his head and body seem to join, there, in that very place, is the thickest part of him</div>
               <p><input class="linkBtn" type="button" value="More Info >" /></p>
             </div>
