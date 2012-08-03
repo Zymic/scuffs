@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width">
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-
+  <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="css/style.css">
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
@@ -41,7 +41,7 @@
       </div>
       <div id="menu">
         <ul>
-          <li>Home</li>
+          <li id="home">Home</li>
           <li>Services</li>
           <li>Gallery</li>
           <li>About us</li>
@@ -51,8 +51,6 @@
       </div>
     </header>
     <div id="content" role="main">
-      <div id="slideshow">
-      </div>
     </div>
     <footer>
       <div id="footer">
@@ -61,10 +59,11 @@
 </div>
 
   <!-- JavaScript at the bottom for fast page loading -->
-
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+
 
   <!-- scripts concatenated and minified via build script -->
   <script src="js/plugins.js"></script>
