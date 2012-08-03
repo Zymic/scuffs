@@ -42,12 +42,12 @@
       </div>
       <div id="menu">
         <ul>
-          <li id="home">Home</li>
-          <li>Services</li>
-          <li>Gallery</li>
-          <li>About us</li>
-          <li>Contact us</li>
-          <li>Get a Quote</li>
+          <li><a id="home" href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Gallery</a></li>
+          <li><a href="">About us</a></li>
+          <li><a href="">Contact us</a></li>
+          <li><a href="">Get a Quote</a></li>
         </ul>
       </div>
     </header>
