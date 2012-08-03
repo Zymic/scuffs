@@ -218,6 +218,11 @@ td { vertical-align: top; }
    Author:
    ========================================================================== */
 
+@font-face {
+  font-family: Meta;
+  src: url('../Meta.ttf');
+}
+
 body {
   background-color: black;
   font-family: "Meta", sans-serif;
@@ -277,12 +282,15 @@ body {
   background-image: url('../img/ephex_footer.png');
   background-repeat: no-repeat;
   background-position: center;
+  line-height: 100px;
+  text-align: right;
+  color: #5a5859;
+  font-size: 12px;
 }
 
 #content {
   width: 100%;
   background-color: white;
-  padding-bottom: 50px;
 
 }
 #featured {
