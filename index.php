@@ -21,6 +21,7 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="bx_styles/bx_styles.css">
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -51,6 +52,19 @@
       </div>
     </header>
     <div id="content" role="main">
+      <div id="slideshow">
+        <div id="slider1">
+          <div id="slide1">
+            <div class="slideCaption">
+              <h1>"HEADER TEXT HERE"</h1>
+              <div>Header Text HereHeader Text HereHeader Text HereHeader Text HereHeader Text HereHeader Text Here</div>
+            </div>
+          </div>
+          <div>Slide two content</div>
+          <div>Slide three content</div>
+          <div>And so on...</div>
+        </div>
+      </div>
     </div>
     <footer>
       <div id="footer">

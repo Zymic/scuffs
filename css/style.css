@@ -281,7 +281,7 @@ body {
 #content {
   width: 100%;
   background-color: white;
-  height: 200px;
+  padding-bottom: 50px;
 
 }
 #featured {
@@ -289,6 +289,35 @@ body {
   height: 200px;
 }
 
+#slideshow {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+#slider1 {
+  width: 100%;
+  height: 350px;
+
+}
+.slideCaption {
+  margin-right: 30px;
+  margin-top: 20px;
+  font-family: 'Meta', sans-serif;
+  float: right;
+  text-align: right;
+  width: 35%;
+}
+.slideCaption h1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+#slide1 {
+  height: 350px;
+  background-image: url('../img/car.jpg');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
 
 
 /* ==|== media queries ======================================================
