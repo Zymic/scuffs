@@ -344,10 +344,9 @@ body {
   border: 1px solid #737373;
 }
 
-#body h1 {
+#body h1, #content h1 {
   font-weight: normal;
   font-size: 24px;
-
 }
 #body p {
   font-size: 13px;
