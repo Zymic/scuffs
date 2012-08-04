@@ -1,10 +1,10 @@
 <?php
 
   if(!isset($_GET['p'])) {
-    $page = 'home.inc.php';
+    $page = './includes/home.inc.php';
   } else {
     $p = $_GET['p'];
-    $page = $p . '.inc.php';
+    $page = './includes/' . $p . '.inc.php';
     if(!file_exists($page)) {
       $page = '404.html';
     }
