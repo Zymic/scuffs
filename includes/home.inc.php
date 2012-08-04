@@ -22,7 +22,7 @@
       For a honest professional service please call us and we will happy to advise and give you an initial quotation. 
     </p>
     <div style="float: right">
-      <img src="img/quote_button.png">
+      <a href="quote"><img src="img/quote_button.png"></a>
     </div>
     <h1>Our Services</h1>
 

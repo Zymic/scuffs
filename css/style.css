@@ -286,6 +286,7 @@ body {
 #content {
   width: 100%;
   background-color: white;
+  background-image: url('../img/bg.jpg');
 
 }
 #featured {

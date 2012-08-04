@@ -1,7 +1,7 @@
 
 <div id="bodyWrapper">
-  <div style="float: right">
-    <img src="img/quote_button.png">
+  <div style="float: right; margin-top: 20px;">
+    <a href="quote"><img src="img/quote_button.png"></a>
   </div>
   <h1 style="margin-top: 0px;">Our Services</h1>
   <table id="services">
