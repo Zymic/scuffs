@@ -1,3 +1,5 @@
 RewriteEngine on
 Options -Multiviews
-RewriteRule ^([^/\.]+)/?$ index.php?p=$1 [L]
+RewriteRule ^([^/\.]+)/?$ $1.php [L]
+
+ErrorDocument 404 /scuffs/404.php
