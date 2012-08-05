@@ -62,7 +62,7 @@
     <footer>
       <div id="footer">
         <div style="width: 80%; margin: auto;">
-          scuffsandscratches.biz
+          <a href="http://scuffsandscratches.biz" style="text-decoration:none; color:grey;">scuffsandscratches.biz</a>
         </div>
       </div>
     </footer>
