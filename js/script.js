@@ -23,7 +23,6 @@ $(document).ready(function(){
     	} else if(option == 'MOTandServicing') {
     		$('#servicesContent').html('<h1>MOT and Servicing</h1><div>R & T Harrison Ltd is based in Staplehurst and is the brother company to well known car bodyshop Scuffs and Scratches. They provide all car and light commercial MOTs, car services, vehicle repairs, body work, accident repairs and clutch and brake repairs and although R & T Harrison has a large and loyal client base all insurance work is welcome as well as fleet and trade work . Click Here to Visit website</div>');
     	} else {
-    		$('#servicesContent').html('<h1>Default Page</h1><div>This section is displayed when no option is selected..........</div>');
     	}
 
     }
@@ -33,7 +32,7 @@ $(document).ready(function(){
     		var option = window.location.hash.substring(1); 
     		loadContent(option);
     	} else {
-    		loadContent(undefined)
+    		loadContent('PaintWork')
     	}
     });
 
