@@ -29,6 +29,8 @@
 </div>
 <div id="body">
   <div id="bodyWrapper">
+    <div id="servicesContent">
+    </div>
   </div>
 
 </div>
