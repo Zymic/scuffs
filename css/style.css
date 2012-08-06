@@ -406,7 +406,12 @@ body {
   width: 100%;
   border-top: 1px solid black;
 }
-
+#aboutTable td {
+  width: 33%;
+}
+#list {
+  padding: 0px;
+}
 #list li {
   text-align: center;
   list-style-type: none;
@@ -416,9 +421,10 @@ body {
   background-image: url('../img/list_blank.png');
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0px;
   font-size: 13px;
+  margin: auto;
 }
+
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
