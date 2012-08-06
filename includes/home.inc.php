@@ -28,22 +28,22 @@
 
     <table id="services">
       <tr>
-        <td>
+        <td class="homeService" id="PaintWork">
           Paint Work
         </td>
-        <td>
+        <td class="homeService" id="WheelRepair">
           Wheel Repair
         </td>
-        <td>
+        <td class="homeService" id="ScratchRemoval">
           Scratch Removal
         </td>
-        <td>
+        <td class="homeService" id="DentRepair">
           Dent Repair
         </td>
-        <td>
+        <td class="homeService" id="FleetServicing">
           Fleet Servicing
         </td>
-        <td>
+        <td class="homeService" id="MOTandServicing">
           MOT and Servicing
         </td>
       </tr>

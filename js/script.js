@@ -7,6 +7,11 @@ $(document).ready(function(){
 	//Home Page slider
     $('#slider1').bxSlider();
 
+    //services buttons on home page
+
+    $('.homeService').on('click',function() {
+    	document.location='./services#' + this.id;
+    });
 
     //Services page option service loader
     var loadContent = function(option) {
