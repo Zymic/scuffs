@@ -40,24 +40,56 @@
 
       <td style="padding-left:20px;border-right:1px solid #454545;">
         <h2>Opening times</h2>
+        <ul id="list">
+          <li>Sunday - Closed</li>
+          <li>Weekdays - 08:00 to 17:30</li>
+          <li>Saturday - 08:30 to 12:00</li>
+        </ul>
       </td>
 
       <td style="padding-left:20px;">
-        <h2>What we offer</h2>
+        <h2>Conveniences offered</h2>
+        <ul id="list">
+          <li>Customer Service / Helpline</li>
+          <li>Free parking</li>
+          <li>Price Match</li>
+          <li>Refunds</li>
+        </ul>
       </td>
     </tr>
 
     <tr>
-      <td style="padding-right:20px;border-right:1px solid #454545; border-top:1px solid #454545;">
+      <td style="border-top:1px solid #454545;border-right:1px solid #454545;">
         <h2>Payment Methods Accepted</h2>
+        <ul id="list">
+          <li>Bank Transfer / Cheques</li>
+          <li>Cash / Postal Orders</li>
+          <li>Credit / Debit Card Payments</li>
+          <li>Maestro (Switch)</li>
+          <li>Visa / Mastercard</li>
+          <li>New Credit Accounts</li>
+          <li>Paypal / Worldpay</li>
+          <li>Standing Order</li>
+        </ul>
       </td>
 
-      <td style="padding-left:20px;border-top:1px solid #454545;border-right: 1px solid #454545;">
-        <h2>Conveniences Offered</h2>
+      <td style="border-top:1px solid #454545;padding-left:20px;border-right:1px solid #454545;">
+        <h2>Why use us?</h2>
+        <ul id="list">
+          <li>Emergency call out</li>
+          <li>Free delivery</li>
+          <li>Free quotes</li>
+          <li>Helpline</li>
+          <li>Late Opening</li>
+          <li>Money back guarantee</li>
+          <li>Next Day Delivery</li>
+          <li>Special Delivery</li>
+        </ul>
       </td>
 
-      <td style="padding-left:20px;padding-bottom:20px; border-top:1px solid #454545;">
+      <td style="border-top:1px solid #454545;padding-left:20px;">
         <h2>Coverage Area</h2>
+        <img src="img/coverage.png">
       </td>
     </tr>
   </table>
