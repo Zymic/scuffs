@@ -1,27 +1,27 @@
 
-<div id="bodyWrapper">
+<div style="width: 80%;margin:auto;padding-top: 10px;">
   <div style="float: right; margin-top: 20px;">
     <a href="quote"><img src="img/quote_button.png"></a>
   </div>
   <h1 style="margin-top: 0px;">Our Services</h1>
   <table id="services">
     <tr>
-      <td>
+      <td class="serviceOption" id="PaintWork">
         Paint Work
       </td>
-      <td>
+      <td class="serviceOption" id="WheelRepair">
         Wheel Repair
       </td>
-      <td>
+      <td class="serviceOption" id="ScratchRemoval">
         Scratch Removal
       </td>
-      <td>
+      <td class="serviceOption" id="DentRepair">
         Dent Repair
       </td>
-      <td>
+      <td class="serviceOption" id="FleetServicing">
         Fleet Servicing
       </td>
-      <td>
+      <td class="serviceOption" id="MOTandServicing">
         MOT and Servicing
       </td>
     </tr>
@@ -29,6 +29,6 @@
 </div>
 <div id="body">
   <div id="bodyWrapper">
-    <h1>Paint Work</h1>
+  </div>
 
 </div>
