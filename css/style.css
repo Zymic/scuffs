@@ -266,8 +266,6 @@ body {
 #menu ul li {
   display: inline;
   line-height:60px;
-  //padding-left:10px;
-  //padding-right:10px;
 }
 
 #footer {
@@ -375,27 +373,6 @@ body {
   font-size: 13px;
 }
 
-#list tr td {
-  background-image: url('../img/list_blank.png');
-  background-position: top center;
-  background-repeat: no-repeat;
-  vertical-align: middle;
-  height: 40px;
-  width: 220px;
-  text-align: center;
-  font-size: 13px;
-}
-
-#list li {
-  background-image: url('../img/list_blank.png');
-  background-position: center; 
-  background-repeat: no-repeat;
-  height: 40px;
-  width: 220px;
-  text-align: center;
-  font-size: 13px;
-}
-
 #menu a {
   color: white;
   text-decoration: none;
@@ -425,6 +402,23 @@ body {
   font-size: 13px;
 }
 
+#aboutTable {
+  width: 100%;
+  border-top: 1px solid black;
+}
+
+#list li {
+  text-align: center;
+  list-style-type: none;
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  background-image: url('../img/list_blank.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0px;
+  font-size: 13px;
+}
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
