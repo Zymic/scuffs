@@ -4,9 +4,9 @@
 	//include dirname($_SERVER['DOCUMENT_ROOT']).'/cfg/settings.php';
 
 	//getting required data
-	$pagetitle = "Services";
+	$pagetitle = "About";
 
-	$page = "./includes/services.inc.php";
+	$page = "./includes/about.inc.php";
 
 	include "template.php";
 ?>
