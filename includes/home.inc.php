@@ -53,21 +53,24 @@
         <td style="width: 50%;padding-right:20px;border-right:1px solid #454545;padding-top:20px;">
           <div style="clear: both;">
             <div style="width: 180px; height:130px;background-color: white;float: right;">
+              <img src="img/fleet.jpg"/>
             </div>
             <h1 style="margin-top:0px;padding-top:0px;">Fleet Servicing</h1>
-            <div style="font-size: 13px;">We have the capacity to service Fleets for car rentals and insurance companies including MOT's and bodywork</div>
+            <div style="font-size: 13px;">We have the capacity to service Fleets for car rentals and insurance companies including MOT's and bodywork.</div>
           </div>
           <div style="clear: both;padding-top: 20px;">
             <div style="width: 180px; height:130px;background-color: white;float: right;">
+              <img src="img/quality.jpg"/>
             </div>
             <h1 style="margin-top:0px;padding-top:0px;">Quality Support</h1>
-            <div style="font-size: 13px;">Open 8.00am-5.30pm 5 days a week and 8.00am to 12.30 pm Saturdays our staff are always at hand to deal with your mechanical requirements</div>
+            <div style="font-size: 13px;">Open 8.00am-5.30pm 5 days a week and 8.00am to 12.30 pm Saturdays our staff are always at hand to deal with your mechanical requirements.</div>
           </div>
           <div style="clear: both;padding-top: 20px;">
             <div style="width: 180px; height:130px;background-color: white;float: right;">
+              <a href="contact"><img src="img/map.jpg"/></a>
             </div>
             <h1 style="margin-top:0px;padding-top:0px;">Get in Touch</h1>
-            <div style="font-size: 13px;">Please visit the contact page for full directions to us and contact information</div>
+            <div style="font-size: 13px;">Please visit the contact page for full directions to us and contact information.</div>
           </div>
 
 
@@ -77,7 +80,7 @@
             Introduction Video
           </h1>
           <div style="font-size: 13px;">
-            The building in which i found myself contained the machinery which produces that artifial atmosphere which sustains life on Mars. The secret of the entire process hinges on the use of the ninth ray, one of the beautiful scintillations which I had noted emanating from the great stone in my host's diadem.
+            Here is a short video introducing Scuffs and Scratches!
           </div>
           <div style="width: 100%; height: 250px;background-color: white;margin-top:10px;">
           </div>
