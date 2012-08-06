@@ -21,7 +21,7 @@ $(document).ready(function(){
     	} else if(option == 'FleetServicing') {
     		$('#servicesContent').html('<h1>Fleet Servicing</h1><div>Scuffs and Scratches can provide fleet servicing for the whole of the UK covering all fleet vehicle from cars to light commercials, repairing bodywork, smart repair on a mobile basis also mechanical repairs, servicing, tyres, MOT’s and diagnostic faults. Recovery and break down service collection and delivery available to fleet and trade customers.</div>');
     	} else if(option == 'MOTandServicing') {
-    		$('#servicesContent').html('<h1>MOT and Servicing</h1><div>R & T Harrison Ltd is based in Staplehurst and is the brother company to well known car bodyshop Scuffs and Scratches. They provide all car and light commercial MOTs, car services, vehicle repairs, body work, accident repairs and clutch and brake repairs and although R & T Harrison has a large and loyal client base all insurance work is welcome as well as fleet and trade work . Click Here to Visit website</div>');
+    		$('#servicesContent').html('<h1>MOT and Servicing</h1><div>R &amp; T Harrison Ltd is based in Staplehurst and is the brother company to well known car bodyshop Scuffs and Scratches. They provide all car and light commercial MOTs, car services, vehicle repairs, body work, accident repairs and clutch and brake repairs and although R & T Harrison has a large and loyal client base all insurance work is welcome as well as fleet and trade work . Click Here to Visit website</div>');
     	} else {
     	}
 

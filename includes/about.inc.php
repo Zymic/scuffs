@@ -1,7 +1,7 @@
 <div class="container" style="width: 80%;margin-bottom: 0px;margin: auto;padding-top: 10px;">
     <h1>About us</h1>
-    <p>Full body repair and work completed to a very high standard . Scruffs & Scratches provide an on-time accurate service, with 6 vans covering the whole of Kent, 
-      South London and Sussex, 6 and ½ days a week, either at home or at your workplace. We have highly trained technicians covering any aspect of paint refurbishment 
+    <p>Full body repair and work completed to a very high standard . Scruffs &amp; Scratches provide an on-time accurate service, with 6 vans covering the whole of Kent, 
+      South London and Sussex, 6 and &frac12; days a week, either at home or at your workplace. We have highly trained technicians covering any aspect of paint refurbishment 
       including alloy wheels. For bigger car repair work we have a static workshop which can hold up to 7 cars at any one time and parking facilities for up to 20 cars! 
       Director Lee Harrison has over 22 years experience in the body shop industry and currently 12 years experience in smart repairs. Scruffs & Scratches covers over a 
       100 dealerships for main dealer satisfaction and guarantee including Rolls Royce, Maserati and Ferrari.</p>
@@ -14,7 +14,7 @@
     <p>All staff whether mobile or working statically within the workshop are fully qualified and trained to a very high standard.</p>
 
     <h2>Specialist Products or Services</h2>
-    <p>Scruffs & Scratches specialise in paint refurbishment on a mobile and static basis. Low environmental painting environment. We have water-based paint systems 
+    <p>Scruffs &amp; Scratches specialise in paint refurbishment on a mobile and static basis. Low environmental painting environment. We have water-based paint systems 
       available both mobile and within the workshop. Within the workshop we have two low-bake oven facilities.</p>
 
     <table style="width: 100%;margin-top:30px;border-top:1px solid #454545;">
