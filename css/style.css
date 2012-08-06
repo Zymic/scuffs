@@ -349,6 +349,12 @@ body {
   font-weight: normal;
   font-size: 24px;
 }
+
+#body h2, #content h2 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
 #body p {
   font-size: 13px;
 }
@@ -359,12 +365,23 @@ body {
 
 }
 #services tr td {
-  background-image: url('../img/bucket_icon.png');
+  background-image: url('../img/logo_lighter.png');
   background-position: top center;
   background-repeat: no-repeat;
   vertical-align: bottom;
   height: 120px;
   width: 110px;
+  text-align: center;
+  font-size: 13px;
+}
+
+#list tr td {
+  background-image: url('../img/list_blank.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  height: 40px;
+  width: 220px;
   text-align: center;
   font-size: 13px;
 }
