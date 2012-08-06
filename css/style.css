@@ -386,6 +386,15 @@ body {
   font-size: 13px;
 }
 
+#list li {
+  background-image: url('../img/list_blank.png');
+  background-position: center; 
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 220px;
+  text-align: center;
+  font-size: 13px;
+}
 
 #menu a {
   color: white;

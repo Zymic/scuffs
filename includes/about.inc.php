@@ -19,42 +19,36 @@
 
     <table style="width: 100%;margin-top:30px;border-top:1px solid #454545;">
       <tr>
-        <td style="width: 20%;border-right:1px solid #454545;padding-top:0px;">
+        <td style="width: 33%;border-right:1px solid #454545;padding-top:0px;">
           <h2>Facilities at our premises</h2>
-          <table id="list" align="center">
-            <tr><td>Customer rest areas</td></tr>
-            <tr><td>Customer toilets</td></tr>
-            <tr><td>Disabled Access</td></tr>
-            <tr><td>Free parking</td></tr>
-            <tr><td>Garden</td></tr>
-          </table>
+          <ul id="list">
+            <li>Customer rest areas</li>
+            <li>Customer toilets</li>
+            <li>Disabled Access</li>
+            <li>Free parking</li>
+            <li>Garden</li>
+          </ul>
         </td>
 
-        <td style="width: 20%;padding-left:20px;border-right:1px solid #454545;padding-top:0px;">
+        <td style="width: 33%;padding-left:20px;border-right:1px solid #454545;padding-top:0px;">
           <h2>Opening times</h2>
         </td>
 
-        <td style="width: 20%;padding-left:20px;padding-top:0px;">
+        <td style="width: 33%;padding-left:20px;padding-top:0px;">
           <h2>What we offer</h2>
         </td>
       </tr>
 
       <tr>
-        <td style="width: 50%;padding-right:20px;border-right:1px solid #454545; border-top:1px solid #454545; padding-top:0px;">
-          <h2>What we offer</h2>
-        </td>
-
-        <td style="width: 50%;padding-left:20px;padding-top:0px; border-top:1px solid #454545;">
+        <td style="width: 33%;padding-right:20px;border-right:1px solid #454545; border-top:1px solid #454545; padding-top:0px;">
           <h2>Payment Methods Accepted</h2>
         </td>
-      </tr>
 
-      <tr>
-        <td style="width: 50%;padding-right:20px;border-right:1px solid #454545; border-top:1px solid #454545; padding-top:0px;">
+        <td style="width: 33%;padding-left:20px;padding-top:0px; border-top:1px solid #454545;">
           <h2>Conveniences Offered</h2>
         </td>
 
-        <td style="width: 50%;padding-left:20px;padding-top:0px;padding-bottom:20px; border-top:1px solid #454545;">
+        <td style="width: 33%;padding-left:20px;padding-top:0px;padding-bottom:20px; border-top:1px solid #454545;">
           <h2>Coverage Area</h2>
         </td>
       </tr>
