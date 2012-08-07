@@ -1,9 +1,9 @@
 
-<div style="width: 80%;margin:auto;padding-top: 10px;">
+<div id="bodyWrapper">
   <div style="float: right; margin-top: 20px;">
     <a href="quote"><img src="img/quote_button.png"></a>
   </div>
-  <h1 style="margin-top: 0px;">Our Services</h1>
+  <h1>Our Services</h1>
   <table id="services">
     <tr>
       <td class="serviceOption" id="PaintWork">
