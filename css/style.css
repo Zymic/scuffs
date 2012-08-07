@@ -458,11 +458,13 @@ body {
   width: 100%;
   font-family: "Meta", sans-serif;
   color: #737373;
+  background-color: white;
 }
 
 #contactForm textarea {
   height: 150px;
   resize: none;
+  background-color: white;
 }
 #contactGo {
   color: white;
