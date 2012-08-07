@@ -48,7 +48,7 @@
 						Name:
 				</td>
 				<td>
-					<input class="contactText" type="text" name="name" placeholder="Your Name" />
+					<input class="contactText" type="text" name="name" placeholder="Your Name" required="required" />
 				</td>
 			</tr>
 			<tr>
@@ -56,7 +56,7 @@
 						Email:
 				</td>
 				<td>
-					<input class="contactText" type="email" name="email" placeholder="Email Address" />
+					<input class="contactText" type="email" name="email" placeholder="Email Address" required="required" />
 				</td>
 			</tr>
 			<tr>
@@ -64,7 +64,7 @@
 						Message:
 				</td>
 				<td style="vertical-align: top;">
-					<textarea class="contactText" name="message" placeholder="Type your message here"></textarea>
+					<textarea class="contactText" required="required" name="message" placeholder="Type your message here"></textarea>
 				</td>
 			</tr>
 			<tr>
