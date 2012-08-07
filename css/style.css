@@ -433,6 +433,57 @@ body {
   background-color: #444444;
 }
 
+#contactForm {
+  width: 100%;
+  padding: 40px;
+  height: 500px;
+  background-image: url('../img/contactBorder.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+  color: #737373;
+}
+#contactForm td {
+  padding: 10px;
+  vertical-align: middle;
+}
+#contactForm table {
+  width: 55%;
+}
+.contactText {
+  border: 1px solid #dbdbdb;
+  font-size: 13px;
+  padding: 10px;
+  width: 100%;
+  font-family: "Meta", sans-serif;
+  color: #737373;
+}
+
+#contactForm textarea {
+  height: 150px;
+  resize: none;
+}
+#contactGo {
+  color: white;
+  font-size: 15px;
+  width: 100px;
+  padding: 5px;
+  background-color: #be3b41;
+  background: -webkit-linear-gradient(top, #c13b42, #a42127);
+  outline: 1px solid #642830;
+  border: none;
+  border-top: 1px solid #d0676c;
+  font-family: "Meta", sans-serif;
+}
+#contactInfo {
+  float: right;
+  width: 35%;
+  margin-top: 40px;
+  color: #717171;
+}
+#contactInfo h3, span {
+  color: #a93e44;
+}
+
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
    This example overrides the primary ('mobile first') styles

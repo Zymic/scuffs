@@ -1,6 +1,89 @@
 <div id="bodyWrapper" style="padding-bottom: 10px;font-size: 13px;">
 	<h1>Contact Us</h1>
 
+	<h2>Send us an email and we'll try and get back to you ASAP</h2>
+
+	<div id="contactInfo">
+		<h3>
+			The Workshop
+		</h3>
+		<div>
+			Fishers Farm, Fishers Road, Staplehurst
+		</div>
+		<div>
+			Kent, TN17 2HS
+		</div>
+		<br />
+		<div>
+			<span>
+				Fax:
+			</span>
+			01580 715480
+			<br />
+			<span>
+				Bodyshop Enquiries:
+			</span>
+				0781 1214019
+			<br />
+			<span>
+				Workshop Enquiries:
+			</span>
+			0333 1234345
+			<br />
+			<span>
+				Accounts:
+			</span>
+			0333 1234345
+			<br />
+			<span>
+				Email:
+			</span>
+			scuffsandscratches@tiscali.co.uk
+		</div>
+	</div>
+	<div id="contactForm">
+		<table>
+			<tr>
+				<td style="width: 10%;">
+					<lable>
+						Name:
+					</label>
+				</td>
+				<td>
+					<input class="contactText" type="text" name="name" />
+				</td>
+			</tr>
+			<tr>
+				<td>		
+					<label>
+						Email:
+					</label>
+				</td>
+				<td>
+					<input class="contactText" type="email" name="email" />
+				</td>
+			</tr>
+			<tr>
+				<td style="vertical-align: top;">
+					<label>
+						Message:
+					</label>
+				</td>
+				<td style="vertical-align: top;">
+					<textarea class="contactText" name="message"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input id="contactGo" type="button" value="Submit" />
+				</td>
+			</tr>
+		</table>
+	</div>
+
+
+
 	<iframe width="900" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
 	 src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Scuffs+%26+Scratches,
 	 +Fishers+Farm+Fishers+Road+Staplehurst+Kent+TN17+2HS&amp;aq=&amp;sll=51.169065,0.558758&amp;sspn=0.017787,
