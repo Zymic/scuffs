@@ -47,4 +47,47 @@ $(document).ready(function(){
     	loadContent(option);
     });
 
+
+    //contact form validation
+
+    $('#contactGo').click(function() {
+        var errors = [];
+        var result = true;
+        var name = $('#cName').val();
+        var email = $('#cEmail').val();
+        var message = $('#cMessage').val();
+        if(name == '') {
+            errors.push('Please enter your name');
+            result = false;
+        }
+
+        if(email == '') {
+            errors.push('Please enter a valid email address');
+            result = false;
+        }
+        if(message == '') {
+            errors.push("Please enter a message");
+            result = false;
+        }
+
+
+
+        $('#resultBox').show();
+        $('#resultList').html('');
+        if(result) {
+            $('#resultBox').addClass('succ');
+            $('#resultBox').removeClass('fail');
+            $('#resultList').append('<li><h3>Success</h3></li>')
+            errors.push('Your message has been sent');
+        } else {
+            $('#resultBox').addClass('fail');
+            $('#resultBox').removeClass('succ');
+            $('#resultList').append('<li><h3>Error with submission</h3></li>')
+        }
+        for(i in errors) {
+            $('#resultList').append('<li>' + errors[i] + '</li>');
+        }
+
+    });
+
  });

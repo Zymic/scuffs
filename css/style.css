@@ -496,6 +496,41 @@ input:required, textarea:required {
   background-color: white;
 }
 
+#resultBox {
+  float: right;
+  width: 60%;
+  color: white;
+  display: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px;
+  padding-right: 30px;
+  min-height: 40px;
+}
+
+#resultList {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+#resultBox h3 {
+  margin: 0px;
+}
+.succ {
+  background-color: green;
+  background-image: url('../img/tick.png'), -webkit-linear-gradient(top, #13943a, #2e573a);
+  background-repeat: no-repeat;
+  background-position:right;
+
+}
+.fail {
+  
+  background-color: red;
+  background-image: url('../img/cross.png'), -webkit-linear-gradient(top, #c10000, #a42127);;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
    This example overrides the primary ('mobile first') styles
