@@ -434,13 +434,15 @@ body {
 }
 
 #contactForm {
-  width: 100%;
+  width: 824px;
   padding: 40px;
-  height: 500px;
+  height: 424px;
+  margin-bottom: 30px;
   background-image: url('../img/contactBorder.png');
   background-position: top left;
   background-repeat: no-repeat;
   color: #737373;
+  background-color: white;
 }
 #contactForm td {
   padding: 10px;
