@@ -319,7 +319,14 @@ body {
 
 #slide1 {
   height: 350px;
-  background-image: url('../img/car.jpg');
+  background-image: url('../img/slide1.jpg');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+#slide2 {
+  height: 350px;
+  background-image: url('../img/slide2.jpg');
   background-position: bottom right;
   background-repeat: no-repeat;
 }
@@ -529,6 +536,15 @@ input:required, textarea:required {
   background-image: url('../img/cross.png'), -webkit-linear-gradient(top, #c10000, #a42127);;
   background-repeat: no-repeat;
   background-position: right;
+}
+
+#folio-wrapper{
+  width: 850px;
+  margin-top: 63px;
+}
+
+.table-margin {
+  margin-top: 16px;
 }
 
 /* ==|== media queries ======================================================
