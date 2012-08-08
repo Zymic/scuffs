@@ -13,9 +13,9 @@
 		$message = $_POST['message'];
 		$errors = array();
 		$result = true;
-		$ipaddress = $_SERVER['REMOTE_ADDR'];  
-	    $date = date('d/m/Y');  
-	    $time = date('H:i:s');  
+		$ipaddress = $_SERVER['REMOTE_ADDR'];
+		$date = date('d/m/Y');
+		$time = date('H:i:s');  
       
 
 		if(empty($name)) {
