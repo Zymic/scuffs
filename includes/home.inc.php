@@ -2,26 +2,26 @@
   <div id="slider1">
 
     <div id="slide1">
-      <h1 class="captionHeader">"HEADER TEXT HERE"</h1>
+      <h1 class="captionHeader">Car Dent Repairs and Paintwork</h1>
       <div class="slideCaption">
-        <div>Consider that the whale has nothing that can properly be called a neck; on the contrary, where his head and body seem to join, there, in that very place, is the thickest part of him</div>
-        <p><input class="linkBtn" type="button" value="More Info >" /></p>
+        <div>Here at Scuffs and Scratches we provide a one stop solution for vehicle repair including body work and paint jobs.</div>
+        <p><a href="services"><input class="linkBtn" type="button" value="Services >"/></a></p>
       </div>
     </div>
 
     <div id="slide2">
-      <h1 class="captionHeader">"HEADER TEXT HERE"</h1>
+      <h1 class="captionHeader">Why not check out our Gallery?</h1>
       <div class="slideCaption">
-        <div>Consider that the whale has nothing that can properly be called a neck; on the contrary, where his head and body seem to join, there, in that very place, is the thickest part of him</div>
-        <p><input class="linkBtn" type="button" value="More Info >" /></p>
+        <div>If you visit the gallery page you will see what we have been upto recently at Scuffs and Scratches.</div>
+        <p><a href="gallery"><input class="linkBtn" type="button" value="Gallery >"/></a></p>
       </div>
     </div>
 
-    <div id="slide1">
-      <h1 class="captionHeader">"HEADER TEXT HERE"</h1>
+    <div id="slide3">
+      <h1 class="captionHeader">Get a quote NOW</h1>
       <div class="slideCaption">
-        <div>Consider that the whale has nothing that can properly be called a neck; on the contrary, where his head and body seem to join, there, in that very place, is the thickest part of him</div>
-        <p><input class="linkBtn" type="button" value="More Info >" /></p>
+        <div>Need to repair some damage?</div>
+        <p><input class="linkBtn" type="button" value="Get a Quote >" /></p>
       </div>
     </div>
     
