@@ -80,6 +80,8 @@
   <script src="js/script.js"></script>
   <!-- end scripts -->
 
+  <script src="slimbox/js/slimbox.js" type="text/javascript"></script> <!-- The Lightbox script. -->
+
   <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
        mathiasbynens.be/notes/async-analytics-snippet -->
   <script>
