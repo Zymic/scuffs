@@ -42,41 +42,43 @@
 		</div>
 	</div>
 	<div id="contactForm">
-		<table>
-			<tr>
-				<td style="width: 10%;">
-						Name:
-				</td>
-				<td>
-					<input id="cName" class="contactText" type="text" name="name" placeholder="Your Name" required="required" />
-				</td>
-			</tr>
-			<tr>
-				<td>		
-						Email:
-				</td>
-				<td>
-					<input id="cEmail" class="contactText" type="email" name="email" placeholder="Email Address" required="required" />
-				</td>
-			</tr>
-			<tr>
-				<td style="vertical-align: top;">
-						Message:
-				</td>
-				<td style="vertical-align: top;">
-					<textarea id="cMessage" class="contactText" required="required" name="message" placeholder="Type your message here"></textarea>
-				</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>
-					<input id="contactGo" type="button" value="Submit" />
-					<div id="resultBox">
-						<ul id="resultList"></ul>
-					</div>
-				</td>
-			</tr>
-		</table>
+		<form method="post" action="contact">
+			<table>
+				<tr>
+					<td style="width: 10%;">
+							Name:
+					</td>
+					<td>
+						<input id="cName" class="contactText" type="text" name="name" placeholder="Your Name" required="required" />
+					</td>
+				</tr>
+				<tr>
+					<td>		
+							Email:
+					</td>
+					<td>
+						<input id="cEmail" class="contactText" type="email" name="email" placeholder="Email Address" required="required" />
+					</td>
+				</tr>
+				<tr>
+					<td style="vertical-align: top;">
+							Message:
+					</td>
+					<td style="vertical-align: top;">
+						<textarea id="cMessage" class="contactText" required="required" name="message" placeholder="Type your message here"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input id="contactGo" type="submit" value="Submit" />
+						<div id="resultBox">
+							<ul id="resultList"></ul>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</form>
 	</div>
 </div>
 

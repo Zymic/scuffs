@@ -50,7 +50,7 @@ $(document).ready(function(){
 
     //contact form validation
 
-    $('#contactGo').click(function() {
+    $('#contactGo').bind('click', function() {
         var errors = [];
         var result = true;
         var name = $('#cName').val();
@@ -62,23 +62,41 @@ $(document).ready(function(){
         }
 
         if(email == '') {
-            errors.push('Please enter a valid email address');
+            errors.push('Please enter your email address');
             result = false;
+        } else {
+            var emailRegEx = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            if(!emailRegEx.test(email)) {
+                result = false;
+                errors.push("Please enter a valid email address");
+            }
         }
         if(message == '') {
             errors.push("Please enter a message");
             result = false;
         }
 
-
-
         $('#resultBox').show();
         $('#resultList').html('');
         if(result) {
-            $('#resultBox').addClass('succ');
-            $('#resultBox').removeClass('fail');
-            $('#resultList').append('<li><h3>Success</h3></li>')
-            errors.push('Your message has been sent');
+            $.post("contact.php", {"ajax": true, "name": name, "email": email, "message": message },
+                function(data) {
+                    var valid = data.result;
+                    if(valid) {
+                        $('#resultBox').addClass('succ');
+                        $('#resultBox').removeClass('fail');
+                        $('#resultList').append('<li><h3>Success</h3></li><li>Your message has been sent</li>');
+                    } else {
+                        $('#resultBox').addClass('fail');
+                        $('#resultBox').removeClass('succ');
+                        $('#resultList').append('<li><h3>Error with submission</h3></li>')
+                        var ajaxErrors = data.errors;
+                        for(i in ajaxErrors) {
+                            $('#resultList').append('<li>' + ajaxErrors[i] + '</li>');
+                        }
+                    }
+                }, "json");
+
         } else {
             $('#resultBox').addClass('fail');
             $('#resultBox').removeClass('succ');
@@ -88,6 +106,7 @@ $(document).ready(function(){
             $('#resultList').append('<li>' + errors[i] + '</li>');
         }
 
+        return false;
     });
 
  });
