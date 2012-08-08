@@ -25,6 +25,7 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="bx_styles/bx_styles.css">
+  <link rel="stylesheet" href="slimbox/css/slimbox.css">
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -80,7 +81,6 @@
   <script src="js/script.js"></script>
   <!-- end scripts -->
 
-  <script src="slimbox/js/slimbox.js" type="text/javascript"></script> <!-- The Lightbox script. -->
 
   <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
        mathiasbynens.be/notes/async-analytics-snippet -->
