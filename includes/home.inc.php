@@ -1,5 +1,6 @@
 <div id="slideshow">
   <div id="slider1">
+
     <div id="slide1">
       <h1 class="captionHeader">"HEADER TEXT HERE"</h1>
       <div class="slideCaption">
@@ -7,9 +8,23 @@
         <p><input class="linkBtn" type="button" value="More Info >" /></p>
       </div>
     </div>
-    <div>Slide two content</div>
-    <div>Slide three content</div>
-    <div>And so on...</div>
+
+    <div id="slide2">
+      <h1 class="captionHeader">"HEADER TEXT HERE"</h1>
+      <div class="slideCaption">
+        <div>Consider that the whale has nothing that can properly be called a neck; on the contrary, where his head and body seem to join, there, in that very place, is the thickest part of him</div>
+        <p><input class="linkBtn" type="button" value="More Info >" /></p>
+      </div>
+    </div>
+
+    <div id="slide1">
+      <h1 class="captionHeader">"HEADER TEXT HERE"</h1>
+      <div class="slideCaption">
+        <div>Consider that the whale has nothing that can properly be called a neck; on the contrary, where his head and body seem to join, there, in that very place, is the thickest part of him</div>
+        <p><input class="linkBtn" type="button" value="More Info >" /></p>
+      </div>
+    </div>
+    
   </div>
 </div>
 <div id="body">
