@@ -2,83 +2,84 @@
 	<h1>Contact Us</h1>
 
 	<h2>Send us an email and we'll try and get back to you ASAP</h2>
-
-	<div id="contactInfo">
-		<h3>
-			The Workshop
-		</h3>
-		<div>
-			Fishers Farm, Fishers Road, Staplehurst
+	<div id="block" style="width: 100%;padding-right: 22px;">
+		<div id="contactInfo">
+			<h3>
+				The Workshop
+			</h3>
+			<div>
+				Fishers Farm, Fishers Road, Staplehurst
+			</div>
+			<div>
+				Kent, TN17 2HS
+			</div>
+			<br />
+			<div>
+				<span>
+					Fax:
+				</span>
+				01580 715480
+				<br />
+				<span>
+					Bodyshop Enquiries:
+				</span>
+					0781 1214019
+				<br />
+				<span>
+					Workshop Enquiries:
+				</span>
+				0333 1234345
+				<br />
+				<span>
+					Accounts:
+				</span>
+				0333 1234345
+				<br />
+				<span>
+					Email:
+				</span>
+				scuffsandscratches@tiscali.co.uk
+			</div>
 		</div>
-		<div>
-			Kent, TN17 2HS
+		<div id="contactForm">
+			<form method="post" action="contact">
+				<table>
+					<tr>
+						<td style="width: 10%;">
+								Name:
+						</td>
+						<td>
+							<input id="cName" class="contactText" type="text" name="name" placeholder="Your Name" required="required" />
+						</td>
+					</tr>
+					<tr>
+						<td>		
+								Email:
+						</td>
+						<td>
+							<input id="cEmail" class="contactText" type="email" name="email" placeholder="Email Address" required="required" />
+						</td>
+					</tr>
+					<tr>
+						<td style="vertical-align: top;">
+								Message:
+						</td>
+						<td style="vertical-align: top;">
+							<textarea id="cMessage" class="contactText" required="required" name="message" placeholder="Type your message here"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input id="contactGo" type="submit" value="Submit" />
+							<div id="resultBox">
+								<ul id="resultList"></ul>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</form>
 		</div>
-		<br />
-		<div>
-			<span>
-				Fax:
-			</span>
-			01580 715480
-			<br />
-			<span>
-				Bodyshop Enquiries:
-			</span>
-				0781 1214019
-			<br />
-			<span>
-				Workshop Enquiries:
-			</span>
-			0333 1234345
-			<br />
-			<span>
-				Accounts:
-			</span>
-			0333 1234345
-			<br />
-			<span>
-				Email:
-			</span>
-			scuffsandscratches@tiscali.co.uk
-		</div>
-	</div>
-	<div id="contactForm">
-		<form method="post" action="contact">
-			<table>
-				<tr>
-					<td style="width: 10%;">
-							Name:
-					</td>
-					<td>
-						<input id="cName" class="contactText" type="text" name="name" placeholder="Your Name" required="required" />
-					</td>
-				</tr>
-				<tr>
-					<td>		
-							Email:
-					</td>
-					<td>
-						<input id="cEmail" class="contactText" type="email" name="email" placeholder="Email Address" required="required" />
-					</td>
-				</tr>
-				<tr>
-					<td style="vertical-align: top;">
-							Message:
-					</td>
-					<td style="vertical-align: top;">
-						<textarea id="cMessage" class="contactText" required="required" name="message" placeholder="Type your message here"></textarea>
-					</td>
-				</tr>
-				<tr>
-					<td></td>
-					<td>
-						<input id="contactGo" type="submit" value="Submit" />
-						<div id="resultBox">
-							<ul id="resultList"></ul>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</form>
 	</div>
 </div>
 

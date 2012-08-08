@@ -76,11 +76,25 @@ $(document).ready(function(){
             result = false;
         }
 
-        $('#resultBox').show();
         $('#resultList').html('');
+        $('#resultBox').hide();
         if(result) {
+            $('#block').block({'overlayCSS': {
+                    'background-color': 'white'
+                },
+                'css': {
+                    'border': 'none',
+                    'background-color': 'black',
+                    'border-radius': '5px',
+                    'color': 'white',
+                    'opacity': '0.8',
+                    'padding': '10px' 
+                },
+                'message': "<h1>Sending Message...</h1>"
+            });
             $.post("contact.php", {"ajax": true, "name": name, "email": email, "message": message },
                 function(data) {
+                    $('#resultBox').show();
                     var valid = data.result;
                     if(valid) {
                         $('#resultBox').addClass('succ');
@@ -95,9 +109,11 @@ $(document).ready(function(){
                             $('#resultList').append('<li>' + ajaxErrors[i] + '</li>');
                         }
                     }
-                }, "json");
+                    $('#block').unblock();
+                }, 'json');
 
         } else {
+            $('#resultBox').show();
             $('#resultBox').addClass('fail');
             $('#resultBox').removeClass('succ');
             $('#resultList').append('<li><h3>Error with submission</h3></li>')
@@ -105,7 +121,6 @@ $(document).ready(function(){
         for(i in errors) {
             $('#resultList').append('<li>' + errors[i] + '</li>');
         }
-
         return false;
     });
 
