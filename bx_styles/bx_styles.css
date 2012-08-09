@@ -32,22 +32,23 @@
 /*pager links*/
 .bx-pager a {
 	margin-right: 5px;
-	color: #fff;
+	color: transparent;
 	padding: 3px 8px 3px 6px;
 	font-size: 12px;
 	zoom:1;
-	background: url(gray_pager.png) no-repeat 0 -20px;
+	background: url(red_pager.png) no-repeat 0 -20px;
+	text-decoration: none;
 }
 
 /*auto start button*/
 .bx-auto .start {
-	background: url(gray_auto.png) no-repeat 0 2px;
+	background: url(red_auto.png) no-repeat 0 2px;
 	padding-left: 13px;
 }
 
 /*auto stop button*/
 .bx-auto .stop {
-	background: url(gray_auto.png) no-repeat 0 -14px;
+	background: url(red_auto.png) no-repeat 0 -14px;
 	padding-left: 13px;
 }
 

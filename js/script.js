@@ -5,7 +5,7 @@
 $(document).ready(function(){
 
 	//Home Page slider
-    $('#slider1').bxSlider();
+    $('#slider1').bxSlider({'auto': true, 'pager': false});
 
     //services buttons on home page
 
