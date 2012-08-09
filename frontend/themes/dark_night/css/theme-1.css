@@ -1,0 +1,266 @@
+
+	.wrapper {
+		width: 840px;
+		overflow: hidden;
+	}
+	
+	a img {
+		border: none;
+	}
+	
+	.albums {
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	.albums li {
+		float: left;
+		margin-right: 45px;
+	}
+	
+	.albums li .album_outer_container {
+		background: url(../images/album-shadow.png) no-repeat bottom center;		
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+	
+	.albums li:nth-child(3n) {
+	}
+	
+	.albums li .album_container {
+		background: #FFF;
+		padding: 10px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-webkit-box-shadow: 0px 0px 4px rgba(50,50,50,0.2);
+	}
+	
+	.album_container .album_cover {
+		display: block;
+		margin-bottom: 10px;
+		clear: both;
+	}
+	
+	.album_container .album_name {
+		float: left;
+		font-weight: bold;
+	}
+	
+	.album_container .album_name:hover {
+		text-decoration: none;
+		color: #999;
+	}
+	
+	.album_container .album_details {
+		float: right;
+		color: #aeaeae;
+		font-style: italic;
+		font-size: 10px;
+	}
+	
+	.loader {
+		background: #000 url(../images/ajax-loader.gif) no-repeat center center;
+		padding: 10px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		width: 24px;
+		height: 24px;
+		z-index: 999;
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		margin-left: -12px;
+		margin-top: -12px;
+		display: none;
+		box-shadow: 0px 0px 4px rgba(255,255,255,0.05);
+		-webkit-box-shadow: 0px 0px 4px rgba(255,255,255,0.05);
+		-moz-box-shadow: 0px 0px 4px rgba(255,255,255,0.05);
+	}
+	
+	.album-header {
+		box-shadow: 0px 0px 4px rgba(255,255,255,0.05);
+		-webkit-box-shadow: 0px 0px 4px rgba(255,255,255,0.05);
+		-moz-box-shadow: 0px 0px 4px rgba(255,255,255,0.05);
+	}
+	
+	.ah_wrapper {
+		padding: 12px;
+		padding-left: 50px;
+		position: relative;
+		font-family: Helvetica, Arial;
+	}
+	
+	.iih_wrapper {
+		padding: 12px;
+		font-family: Helvetica, Arial;
+		background: #000;
+	}
+	
+	h1.album_title {
+		color: #FFF;
+		text-shadow: none;
+		font-size: 16px;
+		font-style: italic;
+		font-weight: normal;
+	}
+	
+	a.close_album {
+		background: #000 url(../images/close-album.png) no-repeat center;
+		padding: 7px;
+		width: 12px;
+		height: 10px;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		text-indent: -9999px;
+		box-shadow: 0px 0px 4px rgba(255,255,255,0.1);
+		-webkit-box-shadow: 0px 0px 4px rgba(255,255,255,0.1);
+		-moz-box-shadow: 0px 0px 4px rgba(255,255,255,0.1);
+		display: block;
+	}
+	
+	.album_details {
+		color: #8e8e8e;
+		font-size: 10px;
+		padding: 3px 0px;
+		font-family: Calibri, Verdana;
+	}
+	
+	.album_details span {
+		color: #444444;
+		padding-left: 5px;
+	}
+	
+	.album_details span strong {
+		color: #434343;
+	}
+	
+	.album_description {
+		color: #F0F0F0;
+		font-size: 11px;
+		line-height: 15px;
+		overflow: hidden;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	.album_description a {
+		color: #FFF;
+		text-decoration: underline;
+	}
+	
+	.iih_wrapper {
+		background: #000;
+	}
+	
+	.iih_wrapper h1 {
+		font-weight: normal;
+		color: #EAEAEA;
+		font-size: 17px;
+		margin: 0px;
+		padding: 0px;
+		padding-bottom: 5px;
+	}
+	
+	.iih_wrapper div {	
+		color: #616161;
+		font-size: 15px;
+	}
+	
+	.album-thumbnails-bar {
+		background: #000;
+	}
+	
+	.show_hide_thumbnails {
+		display: block;
+		width: 60px;
+		height: 14px;
+		background: #000 url(../images/hide-thumbnails.png) no-repeat center center;
+		position: absolute;
+		top: -14px;
+		left: 50%;
+		margin-left: -30px;
+		border-radius: 5px 5px 0px 0px;
+		-webkit-border-radius: 5px 5px 0px 0px;
+		-moz-border-radius: 5px 5px 0px 0px;
+	}
+	
+	.atb_wrapper {
+		overflow: hidden;
+		padding: 12px;
+		height: 72px;
+		position: relative;
+		margin: 0px 20px;
+	}
+	
+	.atb_wrapper .thumbnails_list {
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+		width: 90000px;
+		position: relative;
+	}
+	
+	.atb_wrapper .thumbnails_list li {
+		float: left;
+		margin-right: 10px;
+		position: relative;
+	}
+	
+	.loading_thumbnail {
+		position: absolute;
+		width: 80px;
+		height: 69px;
+		top: 0px;
+		left: 0px;
+		background: #000 url(../images/ajax-loader.gif) no-repeat center center;
+	}
+	
+	.album-thumbnails-bar .atb_nav {
+		position: absolute;
+		top: 0px;
+		width: 16px;
+		padding: 0px 6px;
+		height: 96px;
+		display: block;
+		text-indent: -9999px;
+	}
+	
+	.album-thumbnails-bar .prev {
+		background: url(../images/nav-left.png) no-repeat center center;
+	}
+	
+	.album-thumbnails-bar .next {
+		right: 0px;
+		top: 0px;
+		background: url(../images/nav-right.png) no-repeat center center;
+	}
+	
+	.showing_image_el {
+		background: #FFF;
+		padding:6px;
+		box-shadow: 0px 0px 3px rgba(0,0,0,1);
+		-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,1);
+		-moz-box-shadow: 0px 0px 3px rgba(0,0,0,1);
+	}
+	
+	
+	/** V2.1 **/
+	#video_frame {
+		display: none;
+	}
+	
+	.showing-image object embed, .showing-image .vimeo_video {
+		padding: 5px;
+		background: #FFF;
+		box-shadow: 0px 0px 3px rgba(0,0,0,1);
+		-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,1);
+		-moz-box-shadow: 0px 0px 3px rgba(0,0,0,1);
+	}
+	
+	.clear {
+		clear: both;
+	}
