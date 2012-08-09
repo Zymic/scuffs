@@ -18,9 +18,9 @@
     </div>
 
     <div id="slide3">
-      <h1 class="captionHeader">Get a quote NOW</h1>
+      <h1 class="captionHeader"><font color="white">Get a quote NOW</font></h1>
       <div class="slideCaption">
-        <div>Need to repair some damage?</div>
+        <div><font color="white">Need to repair some damage?</font></div>
         <p><input class="linkBtn" type="button" value="Get a Quote >" /></p>
       </div>
     </div>

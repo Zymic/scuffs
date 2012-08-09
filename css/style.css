@@ -334,7 +334,7 @@ body {
 #slide3 {
   height: 350px;
   background-image: url('../img/slide3.jpg');
-  background-position: bottom right;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -547,11 +547,11 @@ input:required, textarea:required {
 
 #folio-wrapper{
   width: 850px;
-  margin-top: 63px;
+  margin-top: 10px;
 }
 
 .table-margin {
-  margin-top: 16px;
+  margin-top: 10px;
 }
 
 /* ==|== media queries ======================================================
