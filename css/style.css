@@ -554,6 +554,12 @@ input:required, textarea:required {
   margin-top: 10px;
 }
 
+.frame { 
+  background-image: url("../img/frame.png");
+  background-repeat: no-repeat;
+  padding: 15px; 
+}
+
 #quoteBox {
   width: 100%;
   background-color: #2c2c2c;
